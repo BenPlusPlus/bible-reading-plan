@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  background-color: white;
+  color: black;
+  font-size: 12px;
+}
+
+@media print {
+  #root {
+    font-size: 9px;
+  }
+  .page-break {
+    page-break-after: always;
+  }
+}
+
+/* Flexbox properties */
+.week {
+  display: flex;
+}
+
+.day {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+/* Legend styling */
+.legend {
+  border: 1px solid black;
+}
+.legend .header {
+  background-color: #eeeeee;
+  border-bottom: 1px solid #cccccc;
+  font-weight: bold;
+}
+.day {
+  padding: 2px;
+  border: 1px solid #cccccc;
+}
+
+/* Schedule */
+.testament {
+  font-size: 3em;
+  padding: 1em;
+}
+
+.reading-section {
+  border: 1px solid #cccccc;
+  margin: 0.5em;
+  margin-bottom: 2em;
+}
+.reading-section .header {
+  background-color: #eeeeee;
+  border-bottom: 1px solid #cccccc;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+.bible-book {
+  border-bottom: 1px solid #cccccc;
+  display: flex;
+  padding: 0.25em;
+}
+.book-name {
+  padding: 0.5em;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 15%;
+}
+.book-chapters {
+  text-align: left;
+}
+.chapter {
+  border: 1px solid #808080;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0.1em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+
