@@ -46,7 +46,7 @@ function App() {
         ))}
       </div>
 
-      <div className="reading-section">
+      <div className="reading-section page-break">
         <div className="header">
           Old Testament History, part 1
         </div>
@@ -60,7 +60,7 @@ function App() {
         ))}
       </div>
 
-      <div className="reading-section page-break">
+      <div className="reading-section">
         <div className="header">
           Old Testament History, part 2
         </div>
@@ -74,7 +74,7 @@ function App() {
         ))}
       </div>
 
-      <div className="reading-section">
+      <div className="reading-section page-break">
         <div className="header">
         Poetry
         </div>

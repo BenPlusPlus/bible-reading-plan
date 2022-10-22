@@ -136,12 +136,12 @@ export const BookList : BibleBook[] = [
     testament: 'Old',
     chapters: 12,
   },
-  {
-    name: 'Song of Solomon',
-    category: 'Poetry',
-    testament: 'Old',
-    chapters: 8,
-  },
+  // {
+  //   name: 'Song of Solomon',
+  //   category: 'Poetry',
+  //   testament: 'Old',
+  //   chapters: 8,
+  // },
   // OT Prophets
   {
     name: 'Isaiah',
